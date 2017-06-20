@@ -50,3 +50,22 @@ relevantes do modelo estão nesta célula e são:
 * N_TREES
 * CORES
 
+Execute todas as células para gerar o modelo treinado.
+
+As métricas de acuracidade encontram-se no final do notebook.
+
+O modelo atual prevê o gênero para cada verso de uma música. Usando um **Test SET** aleatório com 20% dos 
+versos o modelo possui uma acuracidade próxima a 70% para predição de gênero. Para prever o gênero de 
+uma música adotamos como estratégia prever o gênero de cada verso e assumir o mais prevalente como predição
+final. Na POC atingimos uma acuracidade de 99% para todas as músicas disponíveis. Este número é certamente
+mais alto do que o real e para obter uma estimativa melhor será necessário dividir a massa de treinamento em 
+**Train/Test** por músicas e não versos.
+
+### Aplicação
+
+Para executar a aplicação, após ativar o `virtualenv`, entre no diretório **app** inicilize o servidor com
+o comando:
+
+`FLASK_APP=app.py flask run`
+
+Acesse o browser na URL indicada e faça seus testes...
