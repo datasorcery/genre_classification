@@ -57,9 +57,7 @@ As métricas de acuracidade encontram-se no final do notebook.
 O modelo atual prevê o gênero para cada verso de uma música. Usando um **Test SET** aleatório com 20% dos 
 versos o modelo possui uma acuracidade próxima a 70% para predição de gênero. Para prever o gênero de 
 uma música adotamos como estratégia prever o gênero de cada verso e assumir o mais prevalente como predição
-final. Na POC atingimos uma acuracidade de 99% para todas as músicas disponíveis. Este número é certamente
-mais alto do que o real e para obter uma estimativa melhor será necessário dividir a massa de treinamento em 
-**Train/Test** por músicas e não versos.
+final. Na POC atingimos uma acuracidade de 78% para todas as músicas disponíveis. 
 
 ### Aplicação
 
