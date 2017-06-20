@@ -1,0 +1,4 @@
+venv/*
+*.gz
+*.bz2
+*/__pycache__/*

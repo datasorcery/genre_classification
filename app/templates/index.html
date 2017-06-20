@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+
+  <title>Music Genre Prediction</title>
+  <meta name="description" content="Music Genre Prediction">
+  <meta name="author" content="Fábio Franco costa">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <script src="js/scripts.js"></script>
+  <h1>Music Genre Prediction</h1>
+  <p>Insira a letra de uma música na caixa abaixo</p>
+  <form action="/predict" method="post">
+  	<p><textarea name="letra" rows="20" cols="50">{{letra}}</textarea></p>
+  	<p><button>Enviar</button></p>
+  </form>
+</body>
+</html>
